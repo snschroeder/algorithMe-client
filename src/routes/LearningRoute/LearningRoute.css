@@ -1,0 +1,96 @@
+.learn-main {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #715E91;
+    height: 100vh;
+    overflow-y: auto;
+    text-align: center;
+}
+.test-main{
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 640px;
+    min-width: 320px;
+    width: 98%;
+    height: auto;
+
+}
+.test-main img{
+    min-width: 310px;
+    max-width: 420px;
+    width: 80%;
+    margin-bottom: 20px;
+
+    /* height: 300px;
+    margin: 20px 0; */
+}
+.learn-main-h2 {
+    font-size: 20px;
+    color: #ddd8e5;
+}
+
+.test-main .question{
+    color: #ddd8e5;
+    text-align: center;
+    padding: 15px;
+    margin: 0;
+}
+
+.test-main .score {
+    color: #ddd8e5;
+    margin: 0;
+    padding: 0 10px;
+    margin-bottom: 5px;
+}
+.answer-form {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+.learn-main input {
+    width: 300px;
+    height: 40px;
+    display: block;
+}
+.learn-main button {
+    width: 200px;
+    height: 40px;
+    margin-bottom: 20px;
+}
+
+.guess-label {
+    color: #ddd8e5;
+}
+
+.learn-main-total {
+    color: #ddd8e5;
+    font-size: 18px;
+}
+
+@media (min-width: 365px) {
+
+    .test-main{
+        display: flex; 
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-height: 600px;
+        min-width: 320px;
+        width: 98%;
+        height: auto;
+        box-shadow: 0 0px 70px 0 rgba(0,0,0,0.34),0 17px 50px 0 rgba(0,0,0,0.19);
+    }
+
+}
+
+
+@media (min-width: 700px) { 
+    .test-main{
+        width: 60%;
+        height: 500px;
+    }
+}

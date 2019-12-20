@@ -1,0 +1,28 @@
+/* same as RegistrationForm css */
+.login-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+.login {
+    height: 400px;
+    margin: 0;
+}
+
+.login > h2 {
+    color: #ddd8e5;
+    font-size: 40px;
+    margin-bottom: 30px;
+    margin-top: 0;
+}
+
+@media (min-width: 500px) { 
+    .form-container{
+        width: 350px;
+        box-shadow: 0 0px 70px 0 rgba(0,0,0,0.34),0 17px 50px 0 rgba(0,0,0,0.19);
+
+    }
+}

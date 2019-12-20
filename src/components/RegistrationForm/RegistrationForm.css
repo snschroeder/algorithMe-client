@@ -1,0 +1,123 @@
+/* form {
+    padding-top: 55px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}  */
+
+body{
+    background: #46385e
+}
+
+.reg-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.reg-container > p {
+    text-align: center;
+    color: #ddd8e5;
+    font-size: 20px;
+    padding: 0px 30px;
+    padding-top: 50px;
+}
+.alert > p {
+    text-align: center;
+    color: rgb(231, 58, 58);
+    font-size: 13px;
+    margin: 0;
+}
+.form-container {
+    background: #46385e;
+    height: 450px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+form {
+    width: 75%;
+}
+
+h2 {
+    color:  #ddd8e5;
+    font-size: 40px;
+    margin: 25px auto;
+}
+input {
+    width: 100%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    height: 45px;
+    border-radius: 40px;
+    border: 2px solid #332944;
+    background-color: #46385e;
+    font-size: 17px;
+    padding-left: 15px;
+    color:  #ddd8e5;
+}
+
+::placeholder {
+    color: #927db6;
+}
+button{
+    width: 100%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    height: 35px;
+    border-radius: 40px;
+    color:#46385e;
+    cursor: pointer;
+    border: 0;
+    font-size: 17px;
+    padding-left: 15px;
+    background: rgb(146,125,182);
+    background: linear-gradient(32deg, rgba(146,125,182,1) 0%, rgba(184,171,207,1) 25%, rgba(221,216,229,1) 52%);
+
+}
+
+button:hover{
+    background: #ddd8e5;
+}
+form a {
+    display: block;
+    color: #ddd8e5;
+    text-align: center;
+    padding: 15px 0;
+}
+
+@media (min-width: 365px) { 
+    .reg-container > p {
+        text-align: center;
+        color: #ddd8e5;
+        font-size: 20px;
+        padding: 0px 30px;
+
+    }
+
+}
+
+@media (min-width: 500px) { 
+    .form-container{
+        width: 350px;
+        box-shadow: 0 0px 70px 0 rgba(0,0,0,0.34),0 17px 50px 0 rgba(0,0,0,0.19);
+
+    }
+
+    .reg-container > p {
+        text-align: center;
+        color: #ddd8e5;
+        font-size: 28px;
+        padding: 30px;
+    }
+}

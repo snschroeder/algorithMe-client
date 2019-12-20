@@ -1,0 +1,133 @@
+.results {
+  /* section containing results */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* width: 100%; */
+  padding-top: 100px;
+  background-color: #715E91;
+  height: 100vh;
+  width: 100vw;
+  overflow-y: auto;
+
+}
+
+.shadow {
+  display: flex; 
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 620px;
+  min-width: 320px;
+  width: 90%;
+  padding-top: 90px;
+
+  
+}
+
+.results-img {
+  max-width: 420px;
+  min-width: 310px;
+  width: 80%;
+}
+
+.results-h3,
+.display-feedback-h4,
+.display-score-p,
+.display-feedback-p  {
+  color: #ddd8e5;
+}
+
+.display-feedback-p {
+  padding: 0px 10px;
+  text-align: center;
+}
+
+.next-button {
+  min-width: 200px;
+  max-width: 300px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 35px;
+  border-radius: 40px;
+  color:#46385e;
+  cursor: pointer;
+  border: 0;
+  font-size: 17px;
+  padding: 10px;
+  background: rgb(146,125,182);
+  background: linear-gradient(32deg, rgba(146,125,182,1) 0%, rgba(184,171,207,1) 25%, rgba(221,216,229,1) 52%);
+}
+
+@media (min-width: 365px) { 
+  .results {
+    /* section containing results */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* width: 100%; */
+    padding-top: 100px;
+    background-color: #715E91;
+    height: 100vh;
+    width: 100vw;
+    overflow-y: auto;
+
+  }
+
+  .shadow {
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 420px;
+    min-width: 320px;
+    width: 90%;
+    box-shadow: 0 0px 70px 0 rgba(0,0,0,0.34),0 17px 50px 0 rgba(0,0,0,0.19);
+    padding-top: 0px;
+    
+  }
+
+  .results-img {
+    max-width: 420px;
+    min-width: 310px;
+    width: 80%;
+  }
+
+  .results-h3,
+  .display-feedback-h4,
+  .display-score-p,
+  .display-feedback-p  {
+    color: #ddd8e5;
+  }
+
+  .next-button {
+    min-width: 200px;
+    max-width: 300px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 35px;
+    border-radius: 40px;
+    color:#46385e;
+    cursor: pointer;
+    border: 0;
+    font-size: 17px;
+    padding-left: 15px;
+    background: rgb(146,125,182);
+    background: linear-gradient(32deg, rgba(146,125,182,1) 0%, rgba(184,171,207,1) 25%, rgba(221,216,229,1) 52%);
+  }
+}
+@media (min-width: 700px) { 
+  .shadow {
+    width: 80%;
+  }
+}
+
+@media (min-width: 1200px) { 
+  .shadow {
+      width: 40%;
+  }
+}

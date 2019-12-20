@@ -1,0 +1,134 @@
+.dash-container{
+    padding-top: 100px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    animation: change 15s infinite;
+    overflow-y: auto;
+}
+@keyframes change {
+    0%{background-color: #46385e;}
+    25%{background-color:  #370D80;}
+    50%{background-color: #715E91;}
+    75%{background-color: #370D80;}
+    100%{background-color: #46385e;}
+}
+.dash-container a {
+    color:#46385e;
+    font-size: 18px;
+    padding: 16px;
+    font-weight: bold;
+    border-radius: 40px;
+    cursor: pointer;
+    border: 0;
+    background: rgb(146,125,182);
+    background: linear-gradient(32deg, rgba(146,125,182,1) 0%, rgba(184,171,207,1) 25%, rgba(221,216,229,1) 52%);
+}
+
+.dash-container a:hover,
+.dash-container a:focus {
+    background: #ddd8e5;
+}
+
+.dash-body {
+    text-align: center;
+}
+
+.dash-container a:visited {
+    color:#46385e;
+}
+.category-container {
+    width: 70%;
+    margin-top:100px;
+}
+
+.category-container h2 {
+    color: #ddd8e5;
+    font-size: 25px;
+}
+
+.dash-h3, .dash-h4 {
+    color: #ddd8e5;
+    font-size: 16px;
+    margin-top: 60px;
+}
+
+.study-display-container {
+    padding: 0;
+    margin: 0 auto;
+    width: 98%;
+    display: inline-block;
+}
+
+.dash-h2, .dash-h4 {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.language-header {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.q-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    /* width: 95%; */
+}
+
+.qcontainer{
+    background-color: rgb(0, 0, 0, 0.6);
+    margin: 5px auto;
+    /* width: 80%; */
+    text-align: center;
+    min-width: 320px;
+    min-height: 500px;
+
+}
+
+.qcontainer-h5 {
+    font-size: 20px;
+    color: #ddd8e5;
+    padding: 10px;
+    margin: 0;
+}
+
+.qcontainer-p {
+    color: #8570A8;
+    margin: 0;
+    /* padding-top: 10px ; */
+}
+.qcontainer img {
+    min-width: 310px;
+    max-width: 420px;
+    width: 80%;
+    /* width: 320px; */
+    padding: 20px 0;
+}
+
+/* .qcontainer img {
+    margin: 0 2px;
+    width: 100%;
+    height:auto;
+} */
+
+@media (min-width: 700px) { 
+    .language-header {
+        display: flex;
+        justify-content: space-around;
+        align-items: baseline; 
+        margin-bottom: 40px;
+    }
+    .qcontainer {
+        width: 80%;
+    }
+}
+
+@media (min-width: 1200px) { 
+    .qcontainer {
+        width: 40%;
+    }
+}
